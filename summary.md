@@ -91,7 +91,7 @@
 
 ### 工作区和暂存区
 
-![工作区和暂存区](C:\Users\apple\Desktop\myproject\git\pic\工作区和暂存区.png)
+![工作区和暂存区](..\pic\工作区和暂存区.png)
 
 ​							（注：图片来自廖雪峰老师的网站）
 
@@ -259,15 +259,15 @@ Github提供Git仓库托管服务
 
 本地Git仓库和Github中Git仓库的**同步**
 
-1. 在Github中创建一个新的仓库![1](C:\Users\apple\Desktop\myproject\git\pic\添加远程库\1.png)
+1. 在Github中创建一个新的仓库![1](..\pic\添加远程库\1.png)
 
-2. 将Github中的仓库和本地仓库关联![1](C:\Users\apple\Desktop\myproject\git\pic\添加远程库\2.png)
+2. 将Github中的仓库和本地仓库关联![1](..\pic\添加远程库\2.png)
 
    其中，***orgin***是远程库的名称，用`git push`命令将master分支的所有内容推送到远程
 
    在第一次推送版本到远程库时，`-u`参数将本地的master分支和远程的master分支关联起来，在以后推送或拉取时就可以简化命令
 
-   ![1](C:\Users\apple\Desktop\myproject\git\pic\添加远程库\2.2.png)
+   ![1](..\pic\添加远程库\2.2.png)
 
 
 
@@ -299,7 +299,7 @@ Github提供Git仓库托管服务
 
 要注意`HEAD`指针指向当前分支，当前分支的指针指向最新版本
 
-![1](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\1.png)
+![1](..\pic\创建和合并分支\1.png)
 
 
 
@@ -321,9 +321,9 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
    HEAD转而指向分支dev，dev和master都指向当前最新版本
 
-   ![1](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\2.png)
+   ![1](..\pic\创建和合并分支\2.png)
 
-2. 在当前分支上完成修改，添加进暂存区，提交等操作![1](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\3.png)
+2. 在当前分支上完成修改，添加进暂存区，提交等操作![1](..\pic\创建和合并分支\3.png)
 
    在dev分支上操作时，dev分支的时间线不断向前延申，dev指针始终指向最新版本，而master分支的时间线“停留在原地”
 
@@ -340,7 +340,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    
    ```
 
-   ![1](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\4.png)
+   ![1](..\pic\创建和合并分支\4.png)
 
 此次合并是快进模式Fast-forward，即直接把master指针指向dev指向的最新提交版本
 
@@ -397,7 +397,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
    现在的分支情况如下图所示，master和feature1各自指向自己时间线中的最新版本
 
-![1](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\5.png)
+![1](..\pic\创建和合并分支\5.png)
 
 
 
@@ -437,7 +437,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 这时打开readme.txt
 
-![6](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\6.png)
+![6](..\pic\创建和合并分支\6.png)
 
 
 
@@ -450,11 +450,11 @@ git commit -m "conflict fixed"
 
 现在的分支情况如下图所示
 
-![6](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\7.png)
+![6](..\pic\创建和合并分支\7.png)
 
 用`git log --graph --pretty=oneline --abbrev-commit`查看分支合并情况
 
-![8](C:\Users\apple\Desktop\myproject\git\pic\创建和合并分支\8.png)
+![8](..\pic\创建和合并分支\8.png)
 
 
 
